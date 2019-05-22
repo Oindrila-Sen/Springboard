@@ -4,7 +4,7 @@
 [Goodreads](https://www.goodreads.com) is a social cataloging website for people who love **Books**.Users can just sign up and then create a reading list or update the books they have read or currently reading or even write a review. They can also form their own groups of book suggestions, surveys, polls, blogs, and discussions.
 <br><br> 
 In this project, I will explore the different features extracted from Books and Authors to determine what makes a book popular or what are the determinants in a book which earns a good rating?
-<br><br> 
+### Who can use this?
 This project is a tool to any prospective writer who is planning to write a book.
 <br>
 Well, they say:
@@ -12,7 +12,10 @@ Well, they say:
 
 Sure!
 <br>But in this age of Data, some science and some analysis can work as a magic!
-
-Let's get started!
-
-## Data
+### Where the Data comes from?
+We are grabbing all the Book Details on Science Fiction and the corresponding Author Details using an API.  
+<br>
+The first version of this tool is to search and explore the **"Science Fiction/Fantasy"** Genre. In the later versions, I intend to work on the genre as an input parameter and thus this tool will work for any genre or search keyword.
+<br><br>
+Now, let's divide the whole project in a few steps:
+1. [Data Extraction and Load Database](https://github.com/Oindrila-Sen/Springboard/blob/master/Capstone1/goodreads/GoodReads_Data_Extraction_Load_Database.ipynb)
