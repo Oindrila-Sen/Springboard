@@ -24,4 +24,4 @@ Now, let's divide the whole project in a few steps:
 4. [Fit a Model to predict Average Rating of a book](https://github.com/Oindrila-Sen/Springboard/blob/master/Capstone1/goodreads/Goodreads_Fit_a_Model.ipynb)
 
 <br>
-The **Random Forest** Model And **SVR** Model are 95% accurate! Well, that's a good start.
+The Random Forest Model And SVR Model are 95% accurate! Well, that's a good start.
