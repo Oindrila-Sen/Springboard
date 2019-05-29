@@ -13,7 +13,7 @@ Well, they say:
 Sure!
 <br>But in this age of Data, some science and some analysis can work as a magic!
 ### Where the Data comes from?
-I am grabbing all the Book Details on Science Fiction and the corresponding Author Details using an API.  
+I am grabbing all the Book Details on Science Fiction and the corresponding Author Details from goodreads using an API.  
 <br>
 The first version of this tool is to search and explore the **"Science Fiction/Fantasy"** Genre. In the later versions, I intend to work on the genre as an input parameter and thus this tool will work for any genre or search keyword.
 <br><br>
