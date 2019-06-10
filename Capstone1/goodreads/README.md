@@ -22,6 +22,15 @@ Now, let's divide the whole project in a few steps:
 2. [Data Wrangling and Features Extraction](https://github.com/Oindrila-Sen/Springboard/blob/master/Capstone1/goodreads/GoodReads_Data_Wrangling.ipynb)
 3. [Exploratory Data Analysis](https://github.com/Oindrila-Sen/Springboard/blob/master/Capstone1/goodreads/GoodReads_EDA.ipynb)
 4. [Fit a Model to predict Average Rating of a book](https://github.com/Oindrila-Sen/Springboard/blob/master/Capstone1/goodreads/Goodreads_Fit_a_Model.ipynb)
+### Conclusion
+There is a popular saying:
 
-<br>
-The Random Forest Model And SVR Model are 95% accurate! Well, that's a good start.
+>*It is far better to foresee even without certainty than not to foresee at all.*
+
+Machine Learning Algorithms have evolved with time and made it possible to foresee future with more certainty. The Machine Learning approach involves learning from DATA by identifying patterns and thus using them to automatically make some predictions. 
+
+In this project, I have used **Multivariate Regression** to predict an Average Rating of a Book. Multiple regression analysis is a powerful technique used for predicting the unknown value of a variable from the known value of two or more variables(the predictors).
+
+It is difficult to predict the exact rating of a book since a Book gains popularity over time and the Rating of a book gets better with time and with more readers. Keeping those constraints in mind, in this project, I have tried to explore different features which a Writer can consider checking out before launching a book on Scienec Fiction/Fantasy.
+
+Thank You!
