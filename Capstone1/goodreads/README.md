@@ -16,8 +16,9 @@ Sure!
 I am grabbing all the Book Details on Science Fiction and the corresponding Author Details from goodreads using an API.  
 <br>
 The first version of this tool is to search and explore the **"Science Fiction/Fantasy"** Genre. In the later versions, I intend to work on the genre as an input parameter and thus this tool will work for any genre or search keyword.
-<br><br>
-Now, let's divide the whole project in a few steps:
+<br>
+### What are the steps followed?
+Let's divide the whole project in a few steps:
 1. [Data Extraction and Load Database](https://github.com/Oindrila-Sen/Springboard/blob/master/Capstone1/goodreads/GoodReads_Data_Extraction_Load_Database.ipynb)
 2. [Data Wrangling and Features Extraction](https://github.com/Oindrila-Sen/Springboard/blob/master/Capstone1/goodreads/GoodReads_Data_Wrangling.ipynb)
 3. [Exploratory Data Analysis](https://github.com/Oindrila-Sen/Springboard/blob/master/Capstone1/goodreads/GoodReads_EDA.ipynb)
@@ -29,7 +30,7 @@ There is a popular saying:
 
 Machine Learning Algorithms have evolved with time and made it possible to foresee future with more certainty. The Machine Learning approach involves learning from DATA by identifying patterns and thus using them to automatically make some predictions. 
 
-In this project, I have used **Multivariate Regression** to predict an Average Rating of a Book. Multiple regression analysis is a powerful technique used for predicting the unknown value of a variable from the known value of two or more variables(the predictors).
+In this project, I have used **Multivariate Regression Algorithms** to predict an Average Rating of a Book. Multiple regression analysis is a powerful technique used for predicting the unknown value of a variable from the known value of two or more variables(the predictors).
 
 It is difficult to predict the exact rating of a book since a Book gains popularity over time and the Rating of a book gets better with time and with more readers. Keeping those constraints in mind, in this project, I have tried to explore different features which a Writer can consider checking out before launching a book on Scienec Fiction/Fantasy.
 
