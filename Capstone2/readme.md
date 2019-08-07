@@ -1,1 +1,1 @@
-# Capstone2 project: Recommend products to Instacart Customers
+## Capstone Project 2 - Recommend products to Instacart Customers
