@@ -5,6 +5,7 @@
 Shopping online is fun. It has a lot of advantages! 
 * It's open 24*7
 * No more worry for parking or getting dressed
+* Thousands of options to explore
 * No more judging by people while you return
 
 Now, Grocery Shopping is something where we worry about the feshness of the produce items while buying online. How about someone else is doing the shopping for you from one of your favorite shop and deliver at your doorsteps? Sounds intersting, right?  For this service, **Instacart** is the answer!
@@ -22,14 +23,17 @@ This anonymized dataset contains a sample of over 3 million grocery orders from 
 Our options are limitless and browsing through those endless choices of products are tiresome. Recommendation helps customers to find products without putting much efforts. 
 What to eat, which movie to watch, what book to read or which product to buy are the questions that we find ourselves to answer all the time. Traditionally, these questions are answered with peer recommendations(friends, family, forums, blog posts or reviews) . But these traditional methods are limited and biased. So, how about getting an unbiased answer?
 
-In this project, I want to explore customer shopping behavior by analyzing their pervious purchases and build a shopping Recommendation Engine that could give them a tailored shopping experience to drive engagement.
+In this project, I want to explore customer shopping behavior by analyzing their pervious purchases and build a shopping Recommendation Engine that could give them a **tailored shopping experience** to drive engagement. In this Dataset, we do not have any Feedback/Rating for any of the items brought by the customer. That means, we have **Implicit Data** and Recommendation Engine has to be built only focussing on user's purchase history. 
 
 ### Project Design
+Before Fitting any Model or telling a story, we need to explore and understand the dataset. So, first, let's take a peek at our Data and then try out some Machine Learning Algorihms to build a **Recommender System** :
 1. [Prform Data Cleaning and Features Extraction](https://github.com/Oindrila-Sen/Springboard/blob/master/Capstone2/Instacart/Instacart_Analysis.ipynb)
 2. [Analyze customer behavior by Exploratory Data Analysis (EDA)](https://github.com/Oindrila-Sen/Springboard/blob/master/Capstone2/Instacart/Instacart_EDA.ipynb)
 3. [Build Recommendation Engine and Recommend Items to Customers](https://github.com/Oindrila-Sen/Springboard/blob/master/Capstone2/Instacart/Instacart_Recommend_1.ipynb)
 
 ### Conclusion
-In this project, I have designed a recommender system with **Implicit Data** where we do not have any Ratings or Fedback on any products. The Recommendation Engine is built while focussing on user's purchase history.
+I love the way Amazon does Recommendations. It's brilliant! So many times, I brought a product which I had no plans buying. That's the beauty of it! Personally, I do not beleive that Recommendations has to be related to the shopping history of the Customer. That way, the customer tends to buy similar things and dont get a chance to explore a style or an item. There should be different levels of Recommendations like "trending products", "Other customers buying products", "unique unexplored products" , "the products that goes well with the already purchased products" or "products other similar customers are buying". 
+That's what I have tried in this project - Recommending different products to Instacart Customers.
 
+Thank You for Reading!
 
